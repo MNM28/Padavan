@@ -22,7 +22,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621"
-            targets: "RM2100 CR660x JCG-Q20 TX180X MAC2600R WDR8620 WDR7300"
+            targets: "RM2100 CR660x JCG-Q20 TX1801 MAC2600R WDR8620 WDR7300"
           - build_variant: "mt7621-usb-1"
             targets: "WR1200JS MSG1500-7615"
           - build_variant: "mt7621-usb-2"
