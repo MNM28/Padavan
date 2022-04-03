@@ -1,4 +1,4 @@
-/* TX180X */
+/* TX1801 */
 
 #define BOARD_PID		"TX180X"
 #define BOARD_NAME		"TX180X"
