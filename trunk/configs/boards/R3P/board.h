@@ -14,7 +14,7 @@
 #undef  BOARD_GPIO_LED_WIFI
 #define BOARD_GPIO_LED_POWER	8	/* 6: red, 10: yellow, 8: blue */
 #define  BOARD_GPIO_LED_LAN	10
-#undef  BOARD_GPIO_LED_WAN
+#define  BOARD_GPIO_LED_WAN 14
 #define  BOARD_GPIO_LED_USB	6
 #undef  BOARD_GPIO_LED_ROUTER
 #define BOARD_GPIO_PWR_USB_ON	1	/* 1: 5V Power ON, 0: 5V Power OFF */
