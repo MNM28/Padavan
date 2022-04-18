@@ -162,7 +162,7 @@ static const struct cc_t {
 inline int
 get_wired_mac_is_single(void)
 {
-#if defined (BOARD_N14U) || defined (BOARD_N11P) || defined (BOARD_MZ_R13) || defined (BOARD_MZ_R13P) || defined (BOARD_CR660x) || defined (BOARD_TX1801)
+#if defined (BOARD_N14U) || defined (BOARD_N11P) || defined (BOARD_MZ_R13) || defined (BOARD_MZ_R13P) || defined (BOARD_CR660x)
 	return 1;
 #else
 	return 0;
