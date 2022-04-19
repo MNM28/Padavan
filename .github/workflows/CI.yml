@@ -21,10 +21,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7621-usb2.0"
-            targets: "MSG1500-7615 WR1200JS RM2100 TX1801"
           - build_variant: "mt7621-usb3.0"
-            targets: "G7 MI-R3P R3P EA7500"           
+            targets: "EA7500"           
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
