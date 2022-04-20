@@ -289,7 +289,7 @@ init_gpio_leds_buttons(void)
 	cpu_gpio_set_pin(14, LED_ON); // set GPIO to low
 #endif
 	cpu_gpio_set_pin_direction(BOARD_GPIO_LED_POWER, 1);
-	LED_CONTROL(BOARD_GPIO_LED_POWER, LED_OFF);
+	LED_CONTROL(BOARD_GPIO_LED_POWER, LED_ON);
 #endif
 
 	/* enable USB port 5V power */
