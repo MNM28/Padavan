@@ -21,8 +21,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7621-usb3.0"
-            targets: "R3P"           
+          - build_variant: "mt7621"
+            targets: "TX1801"           
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
