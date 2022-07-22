@@ -22,7 +22,11 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621"
-            targets: "TX1801"           
+            targets: "TX1801 Q20"       
+          - build_variant: "mt7621-usb2.0"
+            targets: "MSG1500-7615 WR1200JS"  
+          - build_variant: "mt7621-usb3.0"
+            targets: "EA7500 NETGEAR-BZV MI-R3P R3P"  
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
