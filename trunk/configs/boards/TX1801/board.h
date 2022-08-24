@@ -13,7 +13,7 @@
 #undef  BOARD_GPIO_LED_ALL
 #undef  BOARD_GPIO_LED_WIFI
 #undef  BOARD_GPIO_LED_WAN
-#define BOARD_GPIO_LED_POWER	16		/* sys_blue: 16, sys_yellow: 15 */
+#define BOARD_GPIO_LED_POWER	16
 #undef  BOARD_GPIO_LED_LAN
 #undef  BOARD_GPIO_LED_USB
 #undef  BOARD_GPIO_LED_ROUTER
