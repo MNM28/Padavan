@@ -22,7 +22,7 @@ jobs:
       matrix:
         include:  
           - build_variant: "mt7621-usb3.0"
-            targets: "EA7500 MI-R3P R3P SIMAX1800T"  
+            targets: "EA7500 G7"  
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
