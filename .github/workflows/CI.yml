@@ -24,7 +24,7 @@ jobs:
           - build_variant: "mt7621-usb3.0"
             targets: "MAC2600R EA7500 G7 R3P MI-R3P SIMAX1800T"  
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Prepare environment
         run: |
           sudo apt update
