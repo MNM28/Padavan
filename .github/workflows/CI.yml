@@ -24,7 +24,7 @@ jobs:
           - build_variant: "mt7621-usb3.0"
             targets: "MAC2600R EA7500 G7 R3P MI-R3P SIMAX1800T"  
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v2
       - name: Prepare environment
         run: |
           sudo apt update
@@ -52,7 +52,7 @@ jobs:
           echo "image_name=${image_name}" >> $GITHUB_ENV
       - name: Upload images to Artifact
         if: ${{ github.event_name != 'release' && success() }}
-        uses: actions/upload-artifact@v2.2.1
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ env.image_name }}
           path: ${{ env.images_dir }}/*.7z
